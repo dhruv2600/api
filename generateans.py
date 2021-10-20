@@ -54,7 +54,7 @@ def get_answer_trial(questionss,ind):
     print("---------------->")
     print(type(docs[0]))
     print("-------------->")
-    answer=answer_question(questionss,docs[2].text)        
+    answer=answer_question(questionss,docs[3].text)        
     # predict n answers
     return answer
 

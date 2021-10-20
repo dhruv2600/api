@@ -44,7 +44,7 @@ collection = mongo.db['exams']
 papercollection =mongo.db['paper']
 
 
-@app.route("/test")
+@app.route("/produce_answers")
 def test():
     examid=request.form['examid']
     index=request.form['index']
